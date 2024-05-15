@@ -10,6 +10,8 @@ img{
     font-size: 1.5rem;
     color: white;
     text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 h1{
@@ -27,7 +29,7 @@ h2{
 }
 
 body{
-    background-image: url("GlobeBackgorund.jpg");
+    background-image: url("GlobeBackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -35,6 +37,3 @@ body{
 span{
     color: red;
 }
-
-
-
