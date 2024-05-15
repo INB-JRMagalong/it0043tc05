@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+img{
+    width: 150px;
+    margin: 40px;
+}
+
+.text{
+    font-family: "Poetsen One";
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+    margin: 10px;
+}
+
+h2{
+    font-size: 2rem;
+    margin: 40px;
+}
+
+.paragraphs{
+    font-size: 1.4rem;
+}
+
+body{
+    background-image: url("GlobeBackgorund.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span{
+    color: red;
+}
+
+
+
