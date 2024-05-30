@@ -1,4 +1,5 @@
 
+
 *{
     margin: 0;
     padding: 0;
@@ -171,13 +172,7 @@ p {
 
 }
 
-.icon:hover {
-    background-image: url(bg2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    transition: ease-in-out 0.5s;
-}
+
 
 
 
@@ -228,6 +223,14 @@ p {
         display: inline-block;
         width: 150px;
       }
+
+      .icon:hover {
+        background-image: url(bg2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        transition: ease-in-out 0.5s;
+    }
 
     }
 
