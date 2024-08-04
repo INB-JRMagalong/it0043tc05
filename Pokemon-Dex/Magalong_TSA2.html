@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Table and Forms</title>
+  </head>
+  <body>
+    <center>
+      <form action="">
+        <label for="dex">National Dex: </label>
+        <input type="number" name id="dex" min="1" />
+        <br />
+        <br />
+        <input type="radio" id="gen1" name="Generation" value="1stGen" />
+        <label for="gen1">Generation 1</label>
+        <input type="radio" id="gen2" name="Generation" value="2ndGen" />
+        <label for="gen2">Generation 2</label>
+        <input type="radio" id="gen3" name="Generation" value="3rdGen" />
+        <label for="gen3">Generation 3</label>
+        <input type="radio" id="gen4" name="Generation" value="4thGen" />
+        <label for="gen4">Generation 4</label>
+        <input type="radio" id="gen5" name="Generation" value="5thGen" />
+        <label for="gen5">Generation 5</label>
+        <input type="radio" id="gen6" name="Generation" value="6thGen" />
+        <label for="gen6">Generation 6</label>
+        <input type="radio" id="gen7" name="Generation" value="7thGen" />
+        <label for="gen7">Generation 7</label>
+        <input type="radio" id="gen8" name="Generation" value="8thGen" />
+        <label for="gen8">Generation 8</label>
+        <input type="radio" id="gen9" name="Generation" value="9thGen" />
+        <label for="gen9">Generation 9</label>
+        <br />
+        <br />
+        <label for="pokemonName">Pokemon Name: </label>
+        <input type="text" id="pokemonName" />
+        <br />
+        <br />
+        <label for="pokemonFile">Image</label>
+        <input type="file" id="pokemonFile" name="pokemonFile" />
+        <br />
+        <br />
+        <label for="type1">Type 1: </label>
+        <input list="types1" id="type1" name="type1" />
+        <datalist id="types1">
+          <option value="Fire"></option>
+          <option value="Water"></option>
+          <option value="Grass"></option>
+          <option value="Ground"></option>
+          <option value="Ice"></option>
+          <option value="Psychic"></option>
+          <option value="Poison"></option>
+          <option value="Electric"></option>
+          <option value="Dark"></option>
+          <option value="Fairy"></option>
+          <option value="Steel"></option>
+          <option value="Fighting"></option>
+          <option value="Flying"></option>
+          <option value="Rock"></option>
+          <option value="Ghost"></option>
+          <option value="Dragon"></option>
+          <option value="Normal"></option>
+          <option value="Bug"></option>
+        </datalist>
+
+        <label for="type2">Type 2: </label>
+        <input list="types2" id="type2" name="type2" />
+        <datalist id="types2">
+          <option value="Fire"></option>
+          <option value="Water"></option>
+          <option value="Grass"></option>
+          <option value="Ground"></option>
+          <option value="Ice"></option>
+          <option value="Psychic"></option>
+          <option value="Poison"></option>
+          <option value="Electric"></option>
+          <option value="Dark"></option>
+          <option value="Fairy"></option>
+          <option value="Steel"></option>
+          <option value="Fighting"></option>
+          <option value="Flying"></option>
+          <option value="Rock"></option>
+          <option value="Ghost"></option>
+          <option value="Dragon"></option>
+          <option value="Normal"></option>
+          <option value="Bug"></option>
+        </datalist>
+
+        <br />
+        <br />
+        <label for="evolvesFrom">Evolves from: </label>
+        <input type="text" id="evolvesFrom" name="evolvesFrom" />
+        <label for="evolvesTo">Evolves to: </label>
+        <input type="text" id="evolvesTo" name="evolvesTo" />
+        <br />
+        <br />
+        <label for="nickname">Nickname: </label>
+        <input type="text" id="nickname" name="nickname" />
+        <br />
+        <br />
+        <label for="birthday">Birthday: </label>
+        <input type="date" id="birthday" name="birthday" />
+        <br />
+        <br />
+        <input type="submit" />
+        <br />
+      </form>
+    </center>
+
+    <br />
+    <table border="1" align="center" width="900">
+      <tr align="center">
+        <th width="100">National Dex</th>
+        <th>Generation</th>
+        <th>Pokemon Name</th>
+        <th>Image</th>
+        <th>Type 1</th>
+        <th>Type 2</th>
+        <th>Evolves From</th>
+        <th>Evolves To</th>
+        <th>Nickname</th>
+        <th>Birthday</th>
+      </tr>
+
+      <tr align="center">
+        <td>#9999</td>
+        <td width="120">Generation 9</td>
+        <td width="120">Justin Rey</td>
+        <td>
+          <img
+            src="kaizer.jpg"
+            height="150"
+          />
+        </td>
+        <td bgcolor="#FAC000" width="60">
+          <font color="white">Electric</font>
+        </td>
+        <td bgcolor="#81B9EF" width="60"><font color="white">Flying</font></td>
+        <td width="100">Cute</td>
+        <td width="100">Super Cute</td>
+        <td width="100">Kaizer</td>
+        <td width="100">11-02-2004</td>
+      </tr>
+
+      <tr align="center">
+        <td>#0245</td>
+        <td>Generation 2</td>
+        <td>Suicune</td>
+        <td>
+          <img
+            src="suicune1.png"
+            height="150"
+          />
+        </td>
+        <td colspan="2" bgcolor="#2980EF"><font color="white">Water</font></td>
+        <td colspan="2">Legendary</td>
+        <td>Aquilux</td>
+        <td>02-06-2000</td>
+      </tr>
+
+      <tr align="center">
+        <td>#0244</td>
+        <td>Generation 2</td>
+        <td>Entei</td>
+        <td>
+          <img
+            src="entei1.png"
+            height="150"
+          />
+        </td>
+        <td colspan="2" bgcolor="#E62829"><font color="white">Fire</font></td>
+        <td colspan="2">Legendary</td>
+        <td>Vulcanicor</td>
+        <td>03-10-2000</td>
+      </tr>
+
+      <tr align="center">
+        <td>#0243</td>
+        <td>Generation 2</td>
+        <td>Raikou</td>
+        <td>
+          <img
+            src="raikou1.png"
+            height="150"
+          />
+        </td>
+        <td colspan="2" bgcolor="#FAC000">
+          <font color="white">Electric</font>
+        </td>
+        <td colspan="2">Legendary</td>
+        <td>Raijinthor</td>
+        <td>04-06-2000</td>
+      </tr>
+
+      <tr align="center">
+        <td>#0487</td>
+        <td>Generation 4</td>
+        <td>Giratina</td>
+        <td>
+          <img
+            src="giratina1.png"
+            height="150"
+          />
+        </td>
+        <td bgcolor="#704170"><font color="white">Ghost</font></td>
+        <td bgcolor="#5060E1"><font color="white">Dragon</font></td>
+        <td colspan="2">Legendary</td>
+        <td>Netherdrake</td>
+        <td>02-27-2008</td>
+      </tr>
+
+      <tr align="center">
+        <td>#0493</td>
+        <td>Generation 4</td>
+        <td>Arceus</td>
+        <td>
+          <img
+            src="arceus1.png"
+            height="150"
+          />
+        </td>
+        <td colspan="2" bgcolor="#9FA19F"><font color="white">Normal</font></td>
+        <td colspan="2">Legendary</td>
+        <td>Primordius</td>
+        <td>00-00-0000</td>
+      </tr>
+
+      <tr align="center">
+        <td>#0484</td>
+        <td>Generation 4</td>
+        <td>Palkia</td>
+        <td>
+          <img
+            src="palkia1.png"
+            height="150"
+          />
+        </td>
+        <td bgcolor="#2980EF"><font color="white">Water</font></td>
+        <td bgcolor="#5060E1"><font color="white">Dragon</font></td>
+        <td colspan="2">Legendary</td>
+        <td>Cosmoglide</td>
+        <td>09-13-2009</td>
+      </tr>
+
+      <tr align="center">
+        <td>#0249</td>
+        <td>Generation 2</td>
+        <td>Lugia</td>
+        <td>
+          <img
+            src="lugia1.png"
+            height="150"
+          />
+        </td>
+        <td bgcolor="#EF4179"><font color="white">Psychic</font></td>
+        <td bgcolor="#81B9EF"><font color="white">Flying</font></td>
+        <td colspan="2">Legendary</td>
+        <td>Aerodrake</td>
+        <td>04-15-2001</td>
+      </tr>
+
+      <tr align="center">
+        <td>#0382</td>
+        <td>Generation 3</td>
+        <td>Kyogre</td>
+        <td>
+          <img
+            src="kyogre1.png"
+            height="150"
+          />
+        </td>
+        <td colspan="2" bgcolor="#2980EF"><font color="white">Water</font></td>
+        <td colspan="2">Legendary</td>
+        <td>Oceandrum</td>
+        <td>02-09-2005</td>
+      </tr>
+
+      <tr align="center">
+        <td>#0384</td>
+        <td>Generation 3</td>
+        <td>Rayquaza</td>
+        <td>
+          <img
+            src="rayquaza1.png"
+            height="150"
+          />
+        </td>
+        <td bgcolor="#5060E1"><font color="white">Dragon</font></td>
+        <td bgcolor="#81B9EF"><font color="white">Flying</font></td>
+        <td colspan="2">Legendary</td>
+        <td>Auroradon</td>
+        <td>08-12-2004</td>
+      </tr>
+    </table>
+  </body>
+</html>
